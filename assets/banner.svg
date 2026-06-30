@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a051b" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d946ef" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.03" />
+    </pattern>
+
+    <!-- Keyframe Animations for Dynamic Aspect -->
+    <style>
+      @keyframes floatCircle {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(-15px) scale(1.05); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 0.35; }
+      }
+      @keyframes dashRotate {
+        to { stroke-dashoffset: -80; }
+      }
+      @keyframes lineSync {
+        0%, 100% { stroke-dashoffset: 100; }
+        50% { stroke-dashoffset: 0; }
+      }
+      .floating-node-1 {
+        animation: floatCircle 6s ease-in-out infinite;
+        transform-origin: 200px 150px;
+      }
+      .floating-node-2 {
+        animation: floatCircle 8s ease-in-out infinite;
+        transform-origin: 1000px 250px;
+      }
+      .glowing-bg {
+        animation: pulseGlow 4s ease-in-out infinite;
+      }
+      .animated-dash {
+        stroke-dasharray: 20, 20;
+        animation: dashRotate 4s linear infinite;
+      }
+      .animated-line {
+        stroke-dasharray: 100;
+        stroke-dashoffset: 100;
+        animation: lineSync 8s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- Animated Glowing Background Orbs -->
+  <circle cx="200" cy="100" r="180" fill="#3b82f6" filter="blur(60px)" class="glowing-bg" />
+  <circle cx="1000" cy="300" r="150" fill="#d946ef" filter="blur(70px)" class="glowing-bg" />
+
+  <!-- Neural Net Abstract Connections (Dynamic Lines) -->
+  <g stroke="#ffffff" stroke-opacity="0.1" stroke-width="1.5">
+    <line x1="150" y1="200" x2="300" y2="120" />
+    <line x1="300" y1="120" x2="450" y2="250" />
+    <line x1="450" y1="250" x2="600" y2="150" />
+    <line x1="600" y1="150" x2="750" y2="280" />
+    <line x1="750" y1="280" x2="900" y2="120" />
+    <line x1="900" y1="120" x2="1050" y2="220" />
+  </g>
+  
+  <g stroke="url(#neonCyan)" stroke-width="2" fill="none">
+    <path d="M 150 200 L 300 120 L 450 250 L 600 150 L 750 280 L 900 120 L 1050 220" class="animated-dash" />
+  </g>
+
+  <!-- Floating Decorative Circles -->
+  <circle cx="200" cy="150" r="8" fill="url(#neonCyan)" class="floating-node-1" />
+  <circle cx="1000" cy="250" r="12" fill="url(#neonPink)" class="floating-node-2" />
+  <circle cx="450" cy="80" r="5" fill="#38bdf8" opacity="0.6" />
+  <circle cx="750" cy="340" r="6" fill="#fb7185" opacity="0.5" />
+
+  <!-- Title Text & Brand -->
+  <g text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">
+    <!-- Subtitle / Category -->
+    <text x="600" y="140" fill="#a5b4fc" font-size="18" font-weight="600" letter-spacing="6">
+      CURATED LIST OF GENERATIVE PARADIGMS
+    </text>
+
+    <!-- Main Heading -->
+    <text x="600" y="210" fill="#ffffff" font-size="54" font-weight="800" letter-spacing="2">
+      Awesome Synthetic Data
+    </text>
+    
+    <!-- Secondary Main Heading (Gradient Styled) -->
+    <text x="600" y="270" fill="url(#neonCyan)" font-size="32" font-weight="700" letter-spacing="4">
+      &amp; Generative Evolution
+    </text>
+
+    <!-- Minimal description -->
+    <text x="600" y="320" fill="#94a3b8" font-size="14" font-weight="400" letter-spacing="1">
+      Evolution • Frameworks • Privacy-Hardened Datasets • Simulation-to-Real
+    </text>
+  </g>
+</svg>

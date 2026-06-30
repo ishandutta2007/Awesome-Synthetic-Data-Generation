@@ -1,11 +1,16 @@
 # Awesome-Synthetic-Data-Generation
-## Synthetic Data Generation: Evolution, Variants, Types, & Applications
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Synthetic Data Banner" width="100%">
+</p>
+
+## 🔮 Synthetic Data Generation: Evolution, Variants, Types, & Applications
 
 Synthetic Data Generation is the algorithmic curation of artificial data that mirrors the statistical properties, mathematical relationships, and structural configurations of real-world datasets. In modern artificial intelligence and data engineering, synthetic generation has evolved from basic rule-based tabular randomization to a primary pillar of frontier model training. As AI development encounters the "Data Wall"—the imminent exhaustion of high-quality, human-written internet text—synthetic data bridges the gap by producing massive, scalable, privacy-sovereign, and structurally flawless data matrices to train, align, and verify deep learning systems.
 
 ---
 
-## 1. The Chronological Evolution
+## ⏳ 1. The Chronological Evolution
 
 The technical progression of artificial data generation has transitioned from rigid heuristic samplers to generative deep learning distributions, moving toward structured self-correcting reasoning loops backed by digital verifiers.
 
@@ -24,7 +29,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Data-Type Variants
+## 📊 2. Core Functional & Data-Type Variants
 
 Synthetic Data Generation methodologies are strictly categorized based on the underlying data modality and the explicit target behavior of the curation pipeline.
 
@@ -37,7 +42,7 @@ Synthetic Data Generation methodologies are strictly categorized based on the un
 
 ---
 
-## 3. High-Capacity Architectural & Generation Paradigms
+## 🏗️ 3. High-Capacity Architectural & Generation Paradigms
 
 To scale up data quality past standard text-dump thresholds, enterprise orchestration layers deploy specialized multi-step generation pipelines.
 
@@ -49,7 +54,7 @@ To scale up data quality past standard text-dump thresholds, enterprise orchestr
 
 ---
 
-## 4. Production Engineering Challenges & Mitigations
+## ⚙️ 4. Production Engineering Challenges & Mitigations
 
 Deploying synthetic data generation loops at industrial scales introduces critical semantic drift vulnerabilities and computational barriers.
 
@@ -60,7 +65,7 @@ Deploying synthetic data generation loops at industrial scales introduces critic
 
 ---
 
-## 5. Frontier Real-World AI Applications
+## 🚀 5. Frontier Real-World AI Applications
 
 | Application | Description & Details | Year First Used | First Paper / Reference |
 | :--- | :--- | :--- | :--- |
