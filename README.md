@@ -79,3 +79,14 @@ Deploying synthetic data generation loops at industrial scales introduces critic
 | [**Sim-to-Real Perception Training for Autonomous Vehicle Fleets**](details/sim_to_real_perception_training_autonomous_vehicles.md) | Generates rare, safety-critical driving scenarios that are practically impossible to collect safely in the physical world (e.g., a child running out from behind a parked truck during a blinding snowstorm at midnight). High-fidelity video synthesis and 3D physics simulators generate thousands of these edge cases to train autonomous vehicle vision arrays robustly. | 2016 | [Virtual Worlds as a Source of Simulation Data for Multi-Object Tracking](https://arxiv.org/abs/1603.02901) |
 | [**Privacy-Compliant Medical Diagnostic Research**](details/privacy_compliant_medical_diagnostic_research.md) | Synthesizes patient health databases, genomic sequencing arrays, and electronic health records (EHR). Synthetic generation engines output realistic clinical charts that preserve exact disease-symptom correlation metrics perfectly, letting cross-institutional researchers train diagnostic networks without violating strict patient privacy laws like HIPAA or GDPR. | 2017 | [Generating Multi-label Discrete Patient Records using Generative Adversarial Networks](https://arxiv.org/abs/1703.01229) |
 
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Synthetic-Data-Generation&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Synthetic-Data-Generation&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Synthetic-Data-Generation&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Synthetic-Data-Generation&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
+
