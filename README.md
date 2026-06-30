@@ -9,8 +9,11 @@ Synthetic Data Generation is the algorithmic curation of artificial data that mi
 
 The technical progression of artificial data generation has transitioned from rigid heuristic samplers to generative deep learning distributions, moving toward structured self-correcting reasoning loops backed by digital verifiers.
 
-```
-[Statistical & Rule-Based Samplers] ----> [Generative Adversarial Nets (GANs, 2014)] ----> [Self-Instruct & Verifier Loops (2024+)](Rigid Mock Columns / Noise Injection)       (Deep Latent Space Tabular & Pixel Maps)       (Automated Code/Math Reinforcement Alignment)
+```mermaid
+flowchart LR
+    A["Statistical & Rule-Based Samplers<br/>(Rigid Mock Columns / Noise Injection)"]
+    --> B["Generative Adversarial Nets (GANs, 2014)<br/>(Deep Latent Space Tabular & Pixel Maps)"]
+    --> C["Self-Instruct & Verifier Loops (2024+)<br/>(Automated Code/Math Reinforcement Alignment)"]
 ```
 
 *   **The Statistical & Heuristic Era (Traditional Data Mocking)**
