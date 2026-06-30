@@ -4,7 +4,13 @@
   <img src="assets/banner.svg" alt="Awesome Synthetic Data Banner" width="100%">
 </p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://github.com/ishandutta2007/Awesome-Synthetic-Data-Generation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Synthetic-Data-Generation?style=flat-square" alt="GitHub Stars"/></a><a href="LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Synthetic-Data-Generation?style=flat-square" alt="License"/></a>
+</p>
+
 ## 🔮 Synthetic Data Generation: Evolution, Variants, Types, & Applications
+
+> **SEO Optimization Note:** This repository is a curated collection of resources, papers, and architectures on **Synthetic Data Generation**, deep learning generative models (GANs, VAEs, Diffusion), privacy-hardened data (Differential Privacy), Sim-to-Real simulations, and self-correcting verifier loops for training frontier Large Language Models (LLMs).
 
 Synthetic Data Generation is the algorithmic curation of artificial data that mirrors the statistical properties, mathematical relationships, and structural configurations of real-world datasets. In modern artificial intelligence and data engineering, synthetic generation has evolved from basic rule-based tabular randomization to a primary pillar of frontier model training. As AI development encounters the "Data Wall"—the imminent exhaustion of high-quality, human-written internet text—synthetic data bridges the gap by producing massive, scalable, privacy-sovereign, and structurally flawless data matrices to train, align, and verify deep learning systems.
 
